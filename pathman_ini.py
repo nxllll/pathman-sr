@@ -27,15 +27,18 @@
 sid_saves = 'static_sids.json'
 
 #odl_ip = '127.0.0.1'
-odl_ip = '198.18.1.80'
-odl_port = '8181'
+#odl_ip = '198.18.1.80'
+odl_ip = '173.39.116.167'
+#odl_port = '8181'
+odl_port = '6644'
 log_file = '/tmp/pathman.log'
 log_size = 2000000
 log_count = 3
 log_level = 'INFO'
-odl_user = 'admin'
-odl_password = 'admin'
-
+#odl_user = 'admin'
+odl_user = 'v632user1'
+#odl_password = 'admin'
+odl_password = 'cb541f'
 import requests, json, logging
 
 class MyBGP(object):
